@@ -10,7 +10,7 @@ column_names = ['JDTDB', 'Calendar_Date', 'X', 'Y', 'Z', 'VX', 'VY', 'VZ', 'LT',
 
 # Read the file line-by-line to isolate only the raw data numbers
 data_lines = []
-with open("/home/suparnajit2005/GitHub/Classical_mechanics_simulations/Central-force-motion/Jupyter/horizons_results.csv", "r") as f:
+with open("/home/suparnajit2005/GitHub/Classical_mechanics_simulations/Central-force-motion/Data/JPL/horizons_results.csv", "r") as f:
     in_data_zone = False
     for line in f:
         if "$$EOE" in line:
